@@ -1,0 +1,12 @@
+{
+  "colours": [
+  	{ "colour": "black" },
+	{ "colour": "white" },
+    	{ "colour": "red" },
+	{ "colour": "orange" },
+	{ "colour": "yellow" },
+	{ "colour": "green" },
+	{ "colour": "blue" },
+	{ "colour": "purple" }
+  ]
+}

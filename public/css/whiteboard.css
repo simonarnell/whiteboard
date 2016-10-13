@@ -1,0 +1,62 @@
+#main {
+  display: flex;
+}
+
+#main * {
+  border-radius: 10px;
+}
+
+#whiteboard {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #aaa;
+  flex: 20 1 auto;
+  margin-right: 10px;
+}
+
+#toolbar {
+  background-color: #aaa;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  flex: 1 20 180px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.toolgroup {
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.toolbutton {
+  background-color: #eee;
+  height: 45px;
+  width: 45px;
+  margin: 5px;	
+  display: flex;
+  justify-content: center;
+  border-style:solid;
+  border-color:#aaa;
+}
+
+.toolIconPositioning {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tool {
+  height:30px;
+  width:30px;
+}
+
+.selected {
+  border-color:#444;  
+}

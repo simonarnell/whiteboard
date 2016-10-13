@@ -1,0 +1,32 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/whiteboard.css">
+<script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+<div id="main">
+<div id="whiteboard">
+<canvas id="workspace">
+</canvas>
+</div>
+<div id="toolbar">
+  <div id="colour-palette" class="toolgroup"></div>
+  <div id="stroke-widths-palette" class="toolgroup"></div>
+  <div id="clear-palette" class="toolgroup">
+	<div class="toolbutton">
+		<div class="toolIconPositioning">
+			<div id="clear" class="tool">
+				<svg height="30" width="30">
+					<line x1="0" y1="0" x2="30" y2="30" style="stroke:rgb(255,0,0);stroke-width:8"/>
+					<line x1="30" y1="0" x2="0" y2="30" style="stroke:rgb(255,0,0);stroke-width:8"/>
+				</svg>
+			</div>
+		</div>
+	</div>
+  </div>
+</div>
+<script src="js/colourPalette.js"></script>
+<script src="js/stroke-widthsPalette.js"></script>
+<script src="js/whiteboard.js"></script>
+</body>
+</html>
